@@ -39,6 +39,8 @@ img {
   --icon-color: #afb1b8;
   --icon-color-hover: #ffffff;
   --hover-focus-duration: 250ms;
+  --main-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
 }
 
 .visually-hidden {
@@ -55,7 +57,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -86,7 +88,7 @@ body {
 
 .logo {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
